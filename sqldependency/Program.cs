@@ -19,7 +19,7 @@ namespace sqldependency
         
         static void Main(string[] args)
         {
-            // 初始化
+            // 初始化组件
             Init();
 
             bool depSuccess = Dep_Start();
