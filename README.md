@@ -1,2 +1,2 @@
 # SqlTableDependencyDemo
-SqlTableDependency使用简单例子
+关于SqlTableDependency使用的简单例子
