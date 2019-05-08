@@ -16,9 +16,10 @@ namespace sqldependency
         private static Dependency.SqlTableDependencyWrapper<Entity.UUMS_Owners> dep;
         private static Queue<KeyValuePair<string, int>> queueOwner;
         private static DataTable dtOwner;
-
+        
         static void Main(string[] args)
         {
+            // 初始化
             Init();
 
             bool depSuccess = Dep_Start();
