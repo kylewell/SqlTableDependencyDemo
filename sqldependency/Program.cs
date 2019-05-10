@@ -21,7 +21,8 @@ namespace sqldependency
         {
             // 初始化组件
             Init();
-
+            
+            // 开启依赖
             bool depSuccess = Dep_Start();
             if (depSuccess)
             {
